@@ -1,7 +1,14 @@
+# Ignore Python cache and compiled files
 __pycache__/
 *.py[cod]
 *.pyo
-*.pytest_cache/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore virtual environments
 venv/
-.env
+.env/
+
+# Ignore MacOS system files
 .DS_Store
