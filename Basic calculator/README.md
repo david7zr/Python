@@ -5,9 +5,9 @@ This project demonstrates clean, modular code, exception handling, and testing w
 
 ✨ Features
 
-✅ Addition, subtraction, multiplication, and division.
-✅ Handles invalid input (non-numeric values).
-✅ Prevents division by zero.
-✅ Interactive menu for user navigation.
-✅ Displays result after each operation.
-✅ Unit tests included with pytest.
+Addition, subtraction, multiplication, and division.
+Handles invalid input (non-numeric values).
+Prevents division by zero.
+Interactive menu for user navigation.
+Displays result after each operation.
+Unit tests included with pytest.
