@@ -1,6 +1,6 @@
 """
 Number Guessing Game
---------------------
+---------------------
 A simple command-line game where the player must guess
 a randomly chosen number between 1 and 100.
 """
