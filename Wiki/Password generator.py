@@ -1,11 +1,15 @@
 import random
-
+import os
 
 # Character pools
 lowercase = "abcdefghijklmnopqrstuvwxyz"
 uppercase = lowercase.upper()
 digits = "0123456789"
 symbols = "!@#$%^&*()-_=+[]{};:,.<>?/"
+
+def clear_screen():
+    """Clear the terminal screen (works on Windows, Linux, Mac)."""
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def shuffle_string(s):
     """Shuffle the characters in a string and return the shuffled string."""
@@ -66,13 +70,19 @@ def main():
 
         if choice == 1:
             print("\n Beginner password generator")
-            print("Password: " + beginner_password())
+            print("\n Password: " + beginner_password())
+            input("press enter to continue...")
+            clear_screen()
         elif choice == 2:
-            print("\n Intermediate password generator")
-            print("Password: " + intermediate_password())
+            print("\n Intermediate password generator\n")
+            print("\n Password: " + intermediate_password())
+            input("press enter to continue...")
+            clear_screen()
         elif choice == 3:
             print("\n Advanced password generator")
-            print("Password: " + advanced_password())
+            print("\n Password: " + advanced_password())
+            input("press enter to continue...")
+            clear_screen()
         elif choice == 4:
             print("See you next time!")
             break
