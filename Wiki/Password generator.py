@@ -69,22 +69,22 @@ def main():
             continue
 
         if choice == 1:
-            print("\n Beginner password generator")
-            print("\n Password: " + beginner_password())
-            input("press enter to continue...")
+            clear_screen()
+            print("Your password is: " + beginner_password())
+            input("\npress enter to continue...")
             clear_screen()
         elif choice == 2:
-            print("\n Intermediate password generator\n")
-            print("\n Password: " + intermediate_password())
-            input("press enter to continue...")
+            clear_screen()
+            print("Your password is: " + intermediate_password())
+            input("\npress enter to continue...")
             clear_screen()
         elif choice == 3:
-            print("\n Advanced password generator")
-            print("\n Password: " + advanced_password())
-            input("press enter to continue...")
+            clear_screen()
+            print("Your password is: " + advanced_password())
+            input("\npress enter to continue...")
             clear_screen()
         elif choice == 4:
-            print("See you next time!")
+            clear_screen()
             break
         else:
             print("Invalid option. Please select between 1-4.")
