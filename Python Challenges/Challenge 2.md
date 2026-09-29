@@ -19,7 +19,7 @@ else:
 <details>
 <summary>Show Answer</summary>
 
-**Correct answer: C**
+**Correct answer: B**
 
 Short explanation of why:
 
