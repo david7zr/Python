@@ -8,7 +8,7 @@ print("{:*^10}".format("Hi"))
 
 **Answers**
 
-- a) ****Hi****
+- a)  ****Hi****
 - b) **Hi****
 - c) Hi*******
 - d) ****Hi**
@@ -16,7 +16,7 @@ print("{:*^10}".format("Hi"))
 <details>
 <summary>Show Answer</summary>
 
-**Correct answer: B**
+**Correct answer: A**
 
 Short explanation of why:
 
